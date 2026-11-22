@@ -1,0 +1,21 @@
+{
+  "title": "Seat the punched offset plate on the press register pins",
+  "category": "Societal relatability",
+  "keywords": [
+    "printing",
+    "offset",
+    "register pins",
+    "plate",
+    "proof press",
+    "peg-in-hole"
+  ],
+  "instruction": "Put the plate on the pins.",
+  "context": "In offset lithography, press operators hang a punched plate on the register pins of the plate-cylinder clamps before the clamps are tightened. PrintWiki (Plate Clamp): many clamps \"comprise a series of register pins that correspond to holes punched in the plates, allowing for proper positioning with a minimum of, if any, further adjustment.\" Printing Industries of America guidance on PrintPlanet: operators \"mount the plates on the pins on the plate clamps of the press.\" A plate off the pins will print out of register, or it can be bent or scored as the clamps close. The skill is precise peg-in-hole alignment of a flat part: both holes have to line up over both pins before the plate is lowered. The punched plate starts flat on a board beside the bed, off the pins, on a fixed mark with a lateral and yaw offset. The robot must pick it up, line both holes up over both pins and lower it flat on the bed. A spare unpinned yellow plate is not on the pins. Cold and unpowered. SOC 51-5112.",
+  "setup": "A short proof-press bed with two colliding register pins (14 mm diameter, 36 mm tall, chrome with red tips), bearer rings and a lead-edge clamp bar sits in the middle of the table, unpowered. A short punched aluminium plate (150 x 72 mm, about 12 mm visually, smaller than a full press plate) with a teal printed image, dark hole rings and four red register marks starts on a narrow wooden plank beside the bed, off the pins, on a taped outline, with its long edges overhanging the plank with a 20 mm lateral and 25 degree yaw offset, so the plate, pins and bed are all clearly visible in the table middle. A second, yellow, unpinned plate lies on a second wooden plank to the side. All props are rigid and start on fixed marks. The bed is bench-scale, not a full 40 in press.",
+  "scoring": "As seen in the overhead video, the plate stays on both register pins. At the end, after 1 s at rest and with the gripper clear of the plate: 1.0 once the plate is on both pins, flat on the bed (within 3 mm) and has been let go; 0.5 if only one pin is engaged, or if the plate is seated but has not been let go or is not yet still; 0 for the start pose (on the board, off the pins), for a plate on the bed that misses the pins, and for idle. Possible scores: 0, 0.5, 1.0.",
+  "run_limit": "700 steps (35 s at 20 Hz)",
+  "reset_notes": "Place the punched plate flat on the taped outline on the board beside the bed, off the pins, with the 20 mm lateral and 25 degree yaw offset. The spare yellow plate stays on the second board.",
+  "fidelity": "Rigid 150 x 72 mm aluminium plate, 12 mm visually, with a 20 mm collider so a downward pinch can close above the board. It starts on a 50 mm plank beside the bed, off the pins, with a 20 mm lateral and 25 degree yaw offset; the long edges overhang so fingers can get around them. The two 14 mm pins collide and stand 36 mm tall so they show through the seated plate. PhysX contactOffset is 4 mm, so collider holes are 30 mm squares; scoring uses a tighter 8 mm window. Bench-scale, not a full press.",
+  "scores": "Scripted (yam_arena, 320x176, seed 0, dev-01, v2 off-pin): demo 1.0 (success at step 357 of 700); short 0.5 (one pin engaged); idle 0.0; naive 0.0. Brev visibility and Dream-1 pending.",
+  "media": ""
+}

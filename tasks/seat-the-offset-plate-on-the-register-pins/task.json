@@ -16,6 +16,6 @@
   "run_limit": "700 steps (35 s at 20 Hz)",
   "reset_notes": "Place the punched plate flat on the taped outline on the board beside the bed, off the pins, with the 20 mm lateral and 25 degree yaw offset. The spare yellow plate stays on the second board.",
   "fidelity": "Rigid 150 x 72 mm aluminium plate, 12 mm visually, with a 20 mm collider so a downward pinch can close above the board. It starts on a 50 mm plank beside the bed, off the pins, with a 20 mm lateral and 25 degree yaw offset; the long edges overhang so fingers can get around them. The two 14 mm pins collide and stand 36 mm tall so they show through the seated plate. PhysX contactOffset is 4 mm, so collider holes are 30 mm squares; scoring uses a tighter 8 mm window. Bench-scale, not a full press.",
-  "scores": "Scripted (yam_arena, 320x176, seed 0, dev-01, v2 off-pin): demo 1.0 (success at step 357 of 700); short 0.5 (one pin engaged); idle 0.0; naive 0.0. Brev visibility and Dream-1 pending.",
-  "media": ""
+  "scores": "Scripted (yam_arena, 320x176, seed 0, Brev L40S, v2): demo 1.0 (step 357); short 0.5; idle 0.0; naive 0.0. Dream-1 flash (seed 1, 22 Nov 2026): 0.0 in 700 steps, not refused (28 requests, 28 attempts, term=max_steps).",
+  "media": "M-VRUPMB"
 }

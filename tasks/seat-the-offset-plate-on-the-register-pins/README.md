@@ -31,8 +31,8 @@ A small proof-press bed or a pin-register base, two plates and two pins, well un
 See task.json.
 
 ## Scores
-- Scripted demo (yam_arena, 320 × 176, seed 0, dev-01, v2 off-pin): 1.0, success at step 357 of 700.
+- Scripted demo (yam_arena, 320 × 176, seed 0, Brev L40S, v2): 1.0, success at step 357 of 700.
 - TASK_DEMO=short: 0.5 (one pin engaged).
 - TASK_DEMO=idle: 0.0.
 - TASK_DEMO=naive: 0.0 (arm stays aside).
-- Brev visibility and Dream-1 pending.
+- Dream-1 (dreamlabs/dream-1-beta-flash, seed 1, 320 × 176, 22 Nov 2026 on a Brev L40S): 0.0 in 700 steps, not refused (28 requests, 28 attempts, term=max_steps, err=None).
